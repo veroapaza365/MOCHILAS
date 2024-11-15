@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochilas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f4f8; /* Fondo más claro */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4a90e2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .image-gallery {
+            display: flex;
+            gap: 10px;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .video-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .video-container a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mochilas: Comodidad y Estilo</h1>
+        <p>Las mochilas son un accesorio esencial para muchas personas, ya sea para el trabajo, la escuela o los viajes. Existen diferentes tipos y estilos de mochilas diseñadas para cubrir diversas necesidades.
+        Las mochilas son bolsas diseñadas para llevar objetos en la espalda, con correas que permiten ajustarlas sobre los hombros. Son útiles para distribuir el peso de manera uniforme, reduciendo la presión sobre una sola área del cuerpo. Existen varios tipos según su uso:
+        Cada tipo de mochila puede variar en capacidad, materiales y características adicionales como compartimentos para laptops, cierres de seguridad o acolchado extra, adaptándose a las necesidades de quien las usa.
+        </p>
+
+        <h2>Tipos de Mochilas</h2>
+        <table>
+            <tr>
+                <th>Tipo</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td>Mochilas escolares</td>
+                <td>Diseñadas para estudiantes, generalmente incluyen varios compartimentos para libros, cuadernos y otros útiles escolares.</td>
+            </tr>
+            <tr>
+                <td>Mochilas de viaje</td>
+                <td>Ideales para viajes largos, tienen gran capacidad y suelen incluir características como compartimentos para laptops y soporte para la espalda.</td>
+            </tr>
+        </table>
+
+        <h2>Materiales de las Mochilas</h2>
+        <table>
+            <tr>
+                <th>Material</th>
+                <th>Características</th>
+            </tr>
+            <tr>
+                <td>Poliéster</td>
+                <td>Resistente al agua y duradero, ideal para condiciones climáticas adversas.</td>
+            </tr>
+            <tr>
+                <td>Cuero</td>
+                <td>Elegante y resistente, aunque requiere cuidado adicional para mantener su calidad.</td>
+            </tr>
+        </table>
+
+        <h2>Galería de Imágenes</h2>
+        <div class="image-gallery">
+            <img src="ima1.jfif" alt="Mochila 1">
+            <img src="ima2.jfif" alt="Mochila 2">
+            <img src="ima3.jfif" alt="Mochila 3">
+        </div>
+
+        <h2>Video de Mochilas</h2>
+        <div class="video-container">
+            <a href="video1.mp4" target="_blank">Haz clic aquí para ver el video sobre mochilas</a>
+        </div>
+
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required maxlength="15">
+
+            <label for="pregunta">¿Que mochila desea comprar?:</label>
+            <input type="pregunta" id="pregunta" name="pregunta" required maxlength="15">
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required maxlength="15"></textarea> </textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
